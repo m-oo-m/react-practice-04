@@ -1,0 +1,14 @@
+# config
+.eslintrc.cjs
+.prettierrc.cjs
+tsconfig.json
+postcss.config.js
+tailwind.config.js
+vite.config.ts
+
+# build dir
+build/
+bin/
+obj/
+out/
+dist/

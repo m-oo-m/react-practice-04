@@ -1,0 +1,14 @@
+# pnpm
+/pnpm-lock.yaml
+
+# dotfile
+.env*
+
+# markdown
+*.md
+
+# production
+/build
+
+# yarn
+/.yarn/
