@@ -44,6 +44,7 @@ module.exports = {
     'redos/no-vulnerable': 'error', //正規表現での脆弱性を検出した場合にエラー
     '@typescript-eslint/ban-ts-comment': 'off', //TypeScriptの@ts-ignore、@ts-nocheck、@ts-checkの使用を許可
     '@typescript-eslint/no-floating-promises': 'error', //Promiseをawaitせずにそのまま使うのをエラーにする
+    '@typescript-eslint/no-misused-promises': 'warn', //Promiseを誤って使っている場合に警告
     'import/no-duplicates': 'error', //重複するimportをエラーにする
     'react/jsx-sort-props': 'error', //JSXコンポーネントのPropsの順番も自動でソート
     '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports' }], //型はimport typeで表示
