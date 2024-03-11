@@ -42,6 +42,7 @@ module.exports = {
     ],
     'unused-imports/no-unused-imports': 'error', //不要なimportを削除
     'redos/no-vulnerable': 'error', //正規表現での脆弱性を検出した場合にエラー
+    'no-console': 'warn', //console.logを警告
     '@typescript-eslint/ban-ts-comment': 'off', //TypeScriptの@ts-ignore、@ts-nocheck、@ts-checkの使用を許可
     '@typescript-eslint/no-floating-promises': 'error', //Promiseをawaitせずにそのまま使うのをエラーにする
     '@typescript-eslint/no-misused-promises': 'warn', //Promiseを誤って使っている場合に警告
